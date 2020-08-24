@@ -8,7 +8,7 @@ from datetime import datetime
 
 #skaner otwartych portow
 #start #python3 skaner.py <ip>
-#stworz plik <ip>.txt a w nim wskaż porty
+#stworz plik <ip>.txt a w nim wskaż porty w postaci np.: 22, 53, 139, 445, ...
 #skrypt ma za zadanie porównać listę otwartych portów wskazanych w pliku z wykrytymi
 #w wyniku otrzymamy listę portów otwartych nie wskazanych w pliku
 
