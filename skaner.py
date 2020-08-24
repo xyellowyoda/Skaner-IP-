@@ -6,6 +6,12 @@ import socket
 import os
 from datetime import datetime
 
+#skaner otwartych portow
+#start #python3 skaner.py <ip>
+#stworz plik <ip>.txt a w nim wskaż porty
+#skrypt ma za zadanie porównać listę otwartych portów wskazanych w pliku z wykrytymi
+#w wyniku otrzymamy listę portów otwartych nie wskazanych w pliku
+
 ascii_banner = pyfiglet.figlet_format('*SKANER*') 
 print(ascii_banner) 
 
